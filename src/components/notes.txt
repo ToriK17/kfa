@@ -1,0 +1,1 @@
+This file will be where components used by more than one page will be placed
