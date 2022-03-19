@@ -1,14 +1,15 @@
-import React from "react";
+import React from 'react';
 // @ts-ignore
-import Logo from "../../assets/icons/favicon copy.ico";
+import Logo from '../../assets/icons/favicon copy.ico';
+import './navbar.scss';
 
 
 const NavBar = () => {
 
 	return (
-		<nav>
+		<nav className='nav-container'>
 			<h1>someText</h1>
-			<img src={Logo} alt="header logo" />
+			<img className="nav-img" src={Logo} alt="header logo" />
 		</nav>
 	)
 
