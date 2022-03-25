@@ -1,14 +1,16 @@
 import React from 'react';
-// @ts-ignore
-import Logo from '../../assets/icons/favicon copy.ico';
+import HomeButton from './HomeButton';
 import './navbar.scss';
 
 
 const NavBar = () => {
+	const Logo =  require('../../assets/icons/favicon copy.ico')
 
 	return (
 		<nav className='nav-container'>
-			<h1>someText</h1>
+			<div className='inner-container'>
+				<HomeButton/>
+			</div>
 			<img className="nav-img" src={Logo} alt="header logo" />
 		</nav>
 	)

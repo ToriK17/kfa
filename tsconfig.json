@@ -19,7 +19,9 @@
     "importHelpers": true,
     "strictNullChecks": true,
     "suppressImplicitAnyIndexErrors": true,
-    "noUnusedLocals": false
+    "noUnusedLocals": false,
+    "allowSyntheticDefaultImports": true,
+    "typeRoots" : ["node_modules/@types", "src/types"]
   },
   "exclude": [
     "node_modules",
@@ -29,6 +31,7 @@
     "webpack",
     "jest",
     "src/setupTests.ts",
-		"public"
+		"public",
+    "dist"
   ]
 }
