@@ -1,32 +1,43 @@
 
 nav.nav-container {
-	position: relative;
 	display: flex;
-	justify-content: flex-start;
 	align-items: center;
+	height: 6em;
+	width: 100%;
 
 	.nav-img {
 		height: 40px;
 		width: 40px;
 	}
 
+	.nav-link {
+		padding: 1.5em 1em 0em 1em;
+	}
+
+	.nav-link-box {
+		display: flex;
+		padding: 0em 0em 0em 0em;
+	}
+
 	.home-button {
 		color: black;
-		display: contents;
+		display: flex;
 		font-size: 20px;
 		font-family: 'Fredericka the Great', cursive;
+		justify-content: flex-start;
+		white-space: nowrap;
+		align-items: center;
+		padding-right: 5em;
 	}
 
 	.button-box {
-		padding-left: 1em;
-		padding-top: 1em;
+		padding: 0em 2em 0em 2em;
 	}
 
 	.inner-container {
-		position: relative;
-	}
-
-	button {
-
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		width: 100%;
 	}
 }
