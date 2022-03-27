@@ -11,12 +11,16 @@ nav.nav-container {
 	}
 
 	.nav-link {
-		padding: 1.5em 1em 0em 1em;
+		padding: 10px;
+
 	}
 
-	.nav-link-box {
+	.nav-links {
 		display: flex;
-		padding: 0em 0em 0em 0em;
+		padding: 0em 2em 0em 0em;
+		width: 40%;
+		justify-content: space-between;
+		font-family: 'Cinzel', serif;
 	}
 
 	.home-button {
@@ -39,5 +43,6 @@ nav.nav-container {
 		flex-direction: row;
 		align-items: center;
 		width: 100%;
+		justify-content: center;
 	}
 }

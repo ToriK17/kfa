@@ -8,14 +8,14 @@ const NavBar = () => {
 
 	return (
 		<nav className='nav-container'>
-			<div className='inner-container'>
 				<HomeButton/>
-				<div className='nav-link-box'>
-					<button className='nav-link' >Home</button>
-					<button className='nav-link' >Gallery</button>
-					<button className='nav-link' >About</button>
-					<button className='nav-link' >Videos</button>
-					<button className='nav-link' >Contact</button>
+			<div className='inner-container'>
+				<div className='nav-links'>
+					<p className='nav-link' >Home</p>
+					<p className='nav-link' >Gallery</p>
+					<p className='nav-link' >About</p>
+					<p className='nav-link' >Videos</p>
+					<p className='nav-link' >Contact</p>
 				</div>
 				{/* <a style='nav-link' href='#'>Home</a> */}
 			</div>
