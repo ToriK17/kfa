@@ -8,7 +8,7 @@ const HomeButton = () => {
   const large = useSizedIconButtonStyles({ padding: 10, childSize: 48 });
   const logo =  require("../../assets/images/avatar.png")
   return (
-    <div className='button-box'>
+    <div>
       <IconButton classes={large}>
         <Avatar src={logo} alt='artist self portriat'/>
         <div className='home-button'>Kafati Fine Art</div>

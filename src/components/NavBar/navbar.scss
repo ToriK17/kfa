@@ -1,6 +1,7 @@
 
 nav.nav-container {
 	display: flex;
+	padding: 0 150px;
 	align-items: center;
 	height: 6.5em;
 	width: 100%;
@@ -33,10 +34,6 @@ nav.nav-container {
 		white-space: nowrap;
 		align-items: center;
 		padding-right: 5em;
-	}
-
-	.button-box {
-		padding: 0em 2em 0em 2em;
 	}
 
 	.inner-container {
