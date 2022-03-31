@@ -5,7 +5,6 @@ nav.nav-container {
 	align-items: center;
 	height: 6.5em;
 	width: 100%;
-	text-decoration: none;
 	// background: rgba(204, 204, 204, 0);
 	// background-color: #ADADAD;
 	// background-color: #EDEAE5;
@@ -27,8 +26,12 @@ nav.nav-container {
 		font-family: 'Cinzel', serif;
 		color: black;
 		z-index: 7;
-		text-decoration: none;
 		list-style: none;
+		color: black;
+	}
+
+	a:-webkit-any-link {
+		text-decoration: none !important;
 		color: black;
 	}
 
