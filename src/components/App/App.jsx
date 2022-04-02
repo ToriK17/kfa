@@ -2,16 +2,31 @@ import './App.scss';
 import React from 'react';
 import NavBar from '../NavBar/NavBar.tsx';
 import AboutMe from '../AboutMe/AboutMe.tsx';
+import GalleryCard from '../Gallery/Gallery.tsx';
+import HomePage from 'src/pages/screens/HomePage';
+import { Routes, Route } from 'react-router-dom';
+
 
 const App = () => {
-  const background =  require("../../assets/images/canvas_adobe.jpeg")
+  const background =  require("../../assets/images/45-degree-fabric-light.png")
+
   return (
     <div className="App">
       <div className='background'>
         <img src={background} className='background' alt="background" />
       </div>
       <NavBar/>
-      <AboutMe/>
+      <HomePage/>
+      <GalleryCard
+        image={require("../../assets/images/home_background.png")}
+	      title={"Temp Title"}
+	      dimensions={"media + dimensions"}
+	      height={240}
+	      alt={"alt for image"}
+      />
+      <Routes>
+        <Route path="/about" element={<AboutMe />} />
+      </Routes>
 
     </div>
   );
