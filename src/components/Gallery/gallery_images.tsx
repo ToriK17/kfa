@@ -2,24 +2,24 @@
 
 export default[
 	{
-			title: 'Finding Pitbulls Homes Through a Fun-Friendly Fostering Form',
-			description: 'UX + UI Design',
-			bodyHeader: 'Biggies Bullies Redesign',
-			imgSrc: './images/publicart.png'
+		image: '../../assets/images/home_background.png',
+		title: '"Temp Title"',
+		dimensions: 'media + dimensions',
+		height: 240,
+		alt: 'alt for image'
 	},
-
 	{
-			title: 'Improving Public Art Appreciation and Social Connectivity Through a Life-Sized Circuit',
-			description: 'UX Research',
-			bodyHeader: "The Human Circuit",
-			imgSrc: './images/pitbull.png'
+		image: '../../assets/images/home_background.png',
+		title: '"Temp Title"',
+		dimensions: 'media + dimensions',
+		height: 240,
+		alt: 'alt for image'
 	},
-
 	{
-			title: 'Creating an Intuitive and Useful Workday System for Employees at a Creamery',
-			description: 'Fullstack Development',
-			bodyHeader: "The Amazing Creamery Workday System",
-			imgSrc: './images/workday.png'
+		image: '../../assets/images/home_background.png',
+		title: '"Temp Title"',
+		dimensions: 'media + dimensions',
+		height: 240,
+		alt: 'alt for image'
 	}
-
 ]
