@@ -4,40 +4,39 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-// import CardActions from '@mui/material/CardActions';
-// import Button from '@mui/material/Button';
-type Props = {
-	image: string
-	title: string
-	dimensions: number
-	height: number
-	alt: string
-};
+import galleryData from './gallery_data.js';
 
-const GalleryCard = ({ image, title, dimensions, alt, height }: Props) => {
+const GalleryCard = () => {
 	return (
-		<div className='card-container'>
-			<Card sx={{ maxWidth: 345 }}>
-				<CardMedia
-					component="img"
-					alt={alt}
-					height={height}
-					image={image}
-				/>
-				<CardContent>
-					<Typography gutterBottom variant="h5" component="div">
-						{title}
-					</Typography>
-					<Typography variant="body2" color="text.secondary">
-						{dimensions}
-					</Typography>
-				</CardContent>
-				{/* <CardActions>
-					<Button size="small">Share</Button>
-					<Button size="small">Learn More</Button>
-				</CardActions> */}
-			</Card>
-		</div>
+		<>
+		{galleryData.map((data) => {
+			return (
+				<div className='card-container'>
+					<Card sx={{ maxWidth: 345 }}>
+						<CardMedia
+							component="img"
+							alt={data.alt}
+							height={data.height}
+							image={data.image}
+							key={'key' + data.title}
+						/>
+						<CardContent>
+							<Typography gutterBottom variant="h5" component="div">
+								{data.title}
+							</Typography>
+							<Typography variant="body2" color="text.secondary">
+								{data.dimensions}
+							</Typography>
+						</CardContent>
+						{/* <CardActions>
+							<Button size="small">Share</Button>
+							<Button size="small">Learn More</Button>
+						</CardActions> */}
+					</Card>
+				</div>
+			)
+		})}
+		</>
 	);
 }
 

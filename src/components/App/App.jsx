@@ -17,13 +17,7 @@ const App = () => {
       </div>
       <NavBar/>
       <HomePage/>
-      <GalleryCard
-        image={require("../../assets/images/home_background.png")}
-	      title={"Temp Title"}
-	      dimensions={"media + dimensions"}
-	      height={240}
-	      alt={"alt for image"}
-      />
+      <GalleryCard/>
       <Routes>
         <Route path="/about" element={<AboutMe />} />
       </Routes>

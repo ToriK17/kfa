@@ -2,21 +2,21 @@
 
 export default[
 	{
-		image: '../../assets/images/home_background.png',
+		image: require('../../assets/images/home_background.png'),
 		title: '"Temp Title"',
 		dimensions: 'media + dimensions',
 		height: 240,
 		alt: 'alt for image'
 	},
 	{
-		image: '../../assets/images/home_background.png',
+		image: require('../../assets/images/home_background.png'),
 		title: '"Temp Title"',
 		dimensions: 'media + dimensions',
 		height: 240,
 		alt: 'alt for image'
 	},
 	{
-		image: '../../assets/images/home_background.png',
+		image: require('../../assets/images/home_background.png'),
 		title: '"Temp Title"',
 		dimensions: 'media + dimensions',
 		height: 240,
