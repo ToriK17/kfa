@@ -5,6 +5,7 @@ import AboutMe from '../AboutMe/AboutMe.tsx';
 import GalleryCard from '../Gallery/Gallery.tsx';
 import HomePage from 'src/pages/screens/HomePage';
 import { Routes, Route } from 'react-router-dom';
+import Divider from '@mui/material/Divider';
 
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
       </div>
       <NavBar/>
       <HomePage/>
+      <Divider className='divider' textAlign="left">GALLERY</Divider>
       <div className='card-container'>
         <GalleryCard/>
       </div>
