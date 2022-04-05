@@ -21,7 +21,7 @@ const GalleryCard = () => {
 							key={'key' + data.title}
 						/>
 						<CardContent>
-							<Typography gutterBottom variant="h5" component="div">
+							<Typography variant="subtitle1" component="div">
 								{data.title}
 							</Typography>
 							<Typography variant="body2" color="text.secondary">
