@@ -3,30 +3,37 @@
 export default[
 	{
 		image: require('../../assets/images/home_background.png'),
-		title: '"Temp Title"',
-		dimensions: 'media + dimensions',
+		title: 'A Quick Study In Acrylics',
+		dimensions: 'Acrylics, 12 W x 16 H x 1 D in',
 		height: 240,
 		alt: 'alt for image'
 	},
 	{
 		image: require('../../assets/images/alt_profile.png'),
-		title: '"Temp Title"',
-		dimensions: 'media + dimensions',
-		height: 240,
+		title: 'Al Borde de la Cordura',
+		dimensions: 'Drawings, 18 W x 12 H x 0 D in',
+		height: 230,
 		alt: 'alt for image'
 	},
 	{
 		image: require('../../assets/images/La_Viejita.png'),
-		title: '"Temp Title"',
-		dimensions: 'media + dimensions',
-		height: 240,
+		title: 'La Viejita',
+		dimensions: 'watercolor, 8 W x 10 H x 0.1 D in',
+		height: 300,
 		alt: 'alt for image'
 	},
 	{
 		image: require('../../assets/images/avatar.png'),
-		title: '"Temp Title"',
-		dimensions: 'media + dimensions',
-		height: 240,
+		title: 'Ephesians 6:12',
+		dimensions: 'Paintings, 36 W x 48 H x 1 D in',
+		height: 310,
+		alt: 'alt for image'
+	},
+	{
+		image: require('../../assets/images/chief.png'),
+		title: 'Orgullo de Aztlan',
+		dimensions: 'charcoal, 16 W x 20 H x 0.1 D in',
+		height: 330,
 		alt: 'alt for image'
 	}
 ]
