@@ -5,7 +5,7 @@ const AboutMe = () => {
 
 	return (
 		<nav>
-			{/* <h1>About Me Section placeholder</h1> */}
+			<h1>About Me Section placeholder</h1>
 		</nav>
 	)
 
