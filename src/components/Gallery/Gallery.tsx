@@ -6,34 +6,40 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import galleryData from './gallery_data.js';
 
-const GalleryCard = () => {
+
+const Gallery = () => {
 	return (
 		<>
-		{galleryData.map((data) => {
-			return (
-				<div className='card-container'>
-					<Card sx={{ maxWidth: 345 }}>
-						<CardMedia
-							component="img"
-							alt={data.alt}
-							height={data.height}
-							image={data.image}
-							key={'key' + data.title}
-						/>
-						<CardContent>
-							<Typography variant="subtitle1" component="div">
-								{data.title}
-							</Typography>
-							<Typography variant="body2" color="text.secondary">
-								{data.dimensions}
-							</Typography>
-						</CardContent>
-					</Card>
-				</div>
-			)
-		})}
+		<div className='title'>
+			GALLERY
+		</div>
+		<div className='card-layout'>
+			{galleryData.map((data) => {
+				return (
+					<div className='card-container'>
+						<Card sx={{ maxWidth: 345 }}>
+							<CardMedia
+								component="img"
+								alt={data.alt}
+								height={data.height}
+								image={data.image}
+								key={'key' + data.title}
+							/>
+							<CardContent>
+								<Typography variant="subtitle1" component="div">
+									{data.title}
+								</Typography>
+								<Typography variant="body2" color="text.secondary">
+									{data.dimensions}
+								</Typography>
+							</CardContent>
+						</Card>
+					</div>
+				)
+			})}
+		</div>
 		</>
 	);
 }
 
-export default GalleryCard;
+export default Gallery;
