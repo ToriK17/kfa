@@ -13,6 +13,7 @@ const Gallery = () => {
 		<div className='title'>
 			GALLERY
 		</div>
+		{/* <div className='banner'></div>	 */}
 		<div className='card-layout'>
 			{galleryData.map((data) => {
 				return (
