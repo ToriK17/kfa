@@ -3,11 +3,9 @@ nav.nav-container {
 	display: flex;
 	padding: 0 5em;
 	align-items: center;
-	height: 6.5em;
+	height: 10em;
 	width: 100%;
-	// background: rgba(204, 204, 204, 0);
-	// background-color: #ADADAD;
-	// background-color: #EDEAE5;
+	background-color: #000000;
 
 	.nav-img {
 		height: 40px;
@@ -24,7 +22,6 @@ nav.nav-container {
 		width: 40%;
 		justify-content: space-between;
 		font-family: 'Cinzel', serif;
-		color: black;
 		z-index: 7;
 		list-style: none;
 		color: black;
@@ -32,13 +29,14 @@ nav.nav-container {
 
 	a:-webkit-any-link {
 		text-decoration: none !important;
-		color: black;
+		color: white;
+		font-size: x-large;
 	}
 
 	.home-button {
-		color: black;
+		color: white;
 		display: flex;
-		font-size: 20px;
+		font-size: x-large;
 		font-family: 'Fredericka the Great', cursive;
 		justify-content: flex-start;
 		white-space: nowrap;
