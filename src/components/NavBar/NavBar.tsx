@@ -2,7 +2,8 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import HomeButton from './HomeButton';
 import './navbar.scss';
-
+import InstagramIcon from '@mui/icons-material/Instagram';
+import FacebookIcon from '@mui/icons-material/Facebook';
 
 const NavBar = () => {
 
@@ -17,6 +18,8 @@ const NavBar = () => {
 					<Link to='/about' className='nav-link' >About</Link>
 					<Link to='/videos' className='nav-link' >Videos</Link>
 					<Link to='/contact' className='nav-link' >Contact</Link>
+					<InstagramIcon sx={{ color: 'white' }}/>
+					<FacebookIcon sx={{ color: 'white' }}/>
 				</div>
 			</div>
 		</nav>
