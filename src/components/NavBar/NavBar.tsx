@@ -17,7 +17,6 @@ const NavBar = () => {
 					<Link to='/about' className='nav-link' >About</Link>
 					<Link to='/videos' className='nav-link' >Videos</Link>
 					<Link to='/contact' className='nav-link' >Contact</Link>
-
 						<a className='media-links' href='https://www.instagram.com/kafati_art_studio/?hl=en'>
 							<InstagramIcon sx={{ color: 'white' }}/>
 						</a>&nbsp;
