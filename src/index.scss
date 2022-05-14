@@ -14,8 +14,12 @@ body {
 .background {
   height: 100%;
   width: 100%;
-  position: absolute;
+  position: fixed;
+  user-select: none;
   z-index: -1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 0;
 }
 
 
