@@ -5,6 +5,8 @@ import App from './components/App/App';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Gallery from './components/Gallery/Gallery';
 import About from './components/About/About';
+import Contact from './components/Contact/Contact';
+import Videos from './components/Videos/Videos';
 
 
 const rootElement = document.getElementById("root");
@@ -13,6 +15,8 @@ render(
     <Routes>
       <Route path="/" element={<App />}>
         <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/videos" element={<Videos />} />
         <Route path="/gallery" element={<Gallery />} />
       </Route>
     </Routes>
