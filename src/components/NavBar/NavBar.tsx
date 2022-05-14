@@ -17,17 +17,17 @@ const NavBar = () => {
 					<Link to='/about' className='nav-link' >About</Link>
 					<Link to='/videos' className='nav-link' >Videos</Link>
 					<Link to='/contact' className='nav-link' >Contact</Link>
-					<div className='media-links'>
-						<a href='https://www.instagram.com/kafati_art_studio/?hl=en'>
+
+						<a className='media-links' href='https://www.instagram.com/kafati_art_studio/?hl=en'>
 							<InstagramIcon sx={{ color: 'white' }}/>
-						</a>&nbsp;
-						<a href='https://www.facebook.com/jaime.kafati.5'>
+						</a>
+						<a className='media-links' href='https://www.facebook.com/jaime.kafati.5'>
 							<FacebookIcon sx={{ color: 'white' }}/>
-						</a>&nbsp;
-						<a href='https://www.saatchiart.com/kafati'>
+						</a>
+						<a className='media-links' href='https://www.saatchiart.com/kafati'>
 							<img src={saLogo} className='sa-art' alt="saatchi art logo" />
 						</a>
-					</div>
+
 				</div>
 			</div>
 		</nav>
