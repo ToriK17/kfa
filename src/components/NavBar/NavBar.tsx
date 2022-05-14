@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import HomeButton from './HomeButton';
 import './navbar.scss';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
@@ -11,7 +10,7 @@ const NavBar = () => {
 	return (
 		<>
 		<nav className='nav-container'>
-      <Link to='/'><HomeButton/></Link>
+      <Link to='/' className='home-button'>Kafati Art Studio</Link>
 			<div className='inner-container'>
 				<div className='nav-links'>
 					<Link to='/' className='nav-link' >Home</Link>
