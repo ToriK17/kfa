@@ -1,7 +1,7 @@
 
 nav.nav-container {
 	display: flex;
-	padding: 0 5em;
+	padding: 0 5em 0 5em;
 	align-items: center;
 	height: 10em;
 	width: 100%;
@@ -56,7 +56,8 @@ nav.nav-container {
 		flex-direction: row;
 		align-items: center;
 		width: 100%;
-		justify-content: center;
+		justify-content: right;
+		margin-right: 15em;
 	}
 
 	.media-links {

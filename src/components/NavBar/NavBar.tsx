@@ -10,7 +10,7 @@ const NavBar = () => {
 	return (
 		<>
 		<nav className='nav-container'>
-      <Link to='/' className='home-button'>Kafati Art Studio</Link>
+      <Link to='/gallery' className='home-button'>Kafati Art Studio</Link>
 			<div className='inner-container'>
 				<div className='nav-links'>
 					<Link to='/gallery' className='nav-link' >Gallery</Link>
@@ -20,10 +20,10 @@ const NavBar = () => {
 
 						<a className='media-links' href='https://www.instagram.com/kafati_art_studio/?hl=en'>
 							<InstagramIcon sx={{ color: 'white' }}/>
-						</a>
+						</a>&nbsp;
 						<a className='media-links' href='https://www.facebook.com/jaime.kafati.5'>
 							<FacebookIcon sx={{ color: 'white' }}/>
-						</a>
+						</a>&nbsp;
 						<a className='media-links' href='https://www.saatchiart.com/kafati'>
 							<img src={saLogo} className='sa-art' alt="saatchi art logo" />
 						</a>
