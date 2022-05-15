@@ -14,7 +14,7 @@ nav.nav-container {
 
 	.sa-art {
 		height: 22px;
-		width: 22px;
+		width: 35px;
 	}
 
 	.nav-link {
@@ -24,19 +24,18 @@ nav.nav-container {
 	.nav-links {
 		display: flex;
 		padding: 0em 2em 0em 0em;
-		width: 40%;
+		width: 55%;
 		justify-content: space-between;
 		font-family: 'Cinzel', serif;
 		z-index: 7;
 		list-style: none;
 		color: black;
-		align-items: center;
 	}
 
 	a:-webkit-any-link {
 		text-decoration: none !important;
 		color: white;
-		font-size: x-large;
+		font-size: 1.75rem;
 	}
 
 	a:hover {

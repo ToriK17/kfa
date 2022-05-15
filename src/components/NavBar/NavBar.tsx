@@ -19,10 +19,10 @@ const NavBar = () => {
 					<Link to='/contact' className='nav-link' >Contact</Link>
 						<a className='media-links' href='https://www.instagram.com/kafati_art_studio/?hl=en'>
 							<InstagramIcon sx={{ color: 'white' }}/>
-						</a>&nbsp;
+						</a>
 						<a className='media-links' href='https://www.facebook.com/jaime.kafati.5'>
 							<FacebookIcon sx={{ color: 'white' }}/>
-						</a>&nbsp;
+						</a>
 						<a className='media-links' href='https://www.saatchiart.com/kafati'>
 							<img src={saLogo} className='sa-art' alt="saatchi art logo" />
 						</a>

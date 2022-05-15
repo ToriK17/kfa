@@ -1,8 +1,24 @@
-.container {
-	z-index: 1;
-}
 h1 {
-	display: flex;
-	padding: 0em 2em 0em 0em;
-	width: 40%;
+  margin: 0 0 0.75rem 0;
+	font-size: x-large;
+	font-family: 'Cinzel', serif;
+}
+.profile-img {
+	max-width: 60%;
+}
+.container {
+  display: flex;
+	position: relative;
+}
+
+.left-half {
+  background-color: #ff9e2c;
+  flex: 1;
+  padding: 1rem;
+}
+
+.right-half {
+  background-color: #b6701e;
+  flex: 1;
+  padding: 1rem;
 }
