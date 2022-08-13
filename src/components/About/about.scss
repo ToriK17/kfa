@@ -5,13 +5,17 @@ h1 {
 }
 .profile-img {
 	max-width: 60%;
+  border-radius: 10px;
 }
 .container {
   display: flex;
-	position: relative;
 }
 
 .left-half {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
   background-color: #ff9e2c;
   flex: 1;
   padding: 1rem;
@@ -21,4 +25,10 @@ h1 {
   background-color: #b6701e;
   flex: 1;
   padding: 1rem;
+}
+
+.about-description {
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
 }

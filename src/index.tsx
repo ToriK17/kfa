@@ -10,10 +10,7 @@ import Videos from './components/Videos/Videos';
 
 
 const rootElement = document.getElementById("root");
-const background =  require("./assets/images/45-degree-fabric-light.png")
 render(
-  <div className='background'>
-    <img src={background} className='background' alt="background" />
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />}>
@@ -24,6 +21,6 @@ render(
       </Route>
     </Routes>
   </BrowserRouter>
-  </div>,
+  ,
   rootElement
 );
