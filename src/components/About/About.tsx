@@ -12,7 +12,7 @@ const AboutMe = () => {
 				<img className="profile-img" src={profilePic} alt="Jaime Kafati" />
 			</div>
 			<div className="right-half">
-				<article>
+				<article className="about-description">
 					<p>
 						By way of introduction, I am a Salvadorian-American artist, following over 30 years of uniformed service, one tour in the US Marines, and 27+ years in law enforcement, I can now dedicate my full-time exploring and creating art. From an early age, before migrating from El Salvador to the United States, I was passionate about art. It was during a primary-school field trip to the San Salvador Museum of Art that I felt an immediate connection to the art world. Regrettably, art was not in the forefront of our family’s wants. As a descendant of two immigrant grandfathers to Central America from the Palestinian Diaspora, providing sustenance to a family and surviving in a new land was gave us a different outlook on life.
 					</p>
