@@ -64,31 +64,34 @@ const Gallery = () => {
 
 	return (
 		<>
-		<div className='title'>
-		</div>
-		<div className='card-layout'>
-			{galleryObj.map((data:any) => {
-				return (
-					<div className='card-container'>
-						<Card sx={{ maxWidth: 345 }}>
-							<CardMedia
-								component="img"
-								alt={data.imageFile.description}
-								image={data.imageFile.url}
-								key={'key' + data.mediaType}
-							/>
-							<CardContent>
-								<Typography variant="subtitle1" component="div" key={'key' + data.title}>
-									{data.title}
-								</Typography>
-								<Typography variant="body2" color="text.secondary" key={'key' + data.dimensions}>
-									{data.mediaType + "   " + data.dimensions}
-								</Typography>
-							</CardContent>
-						</Card>
-					</div>
-				)
-			})}
+		<div className='gallery-body'>
+			<div className='gallery-side-spacing'></div>
+			<div className='gallery-content'>
+				<div className='card-layout'>
+					{galleryObj.map((data:any) => {
+						return (
+							<div className='card-container'>
+								<Card sx={{ maxWidth: 345 }}>
+									<CardMedia
+										component="img"
+										alt={data.imageFile.description}
+										image={data.imageFile.url}
+										key={'key' + data.mediaType}
+									/>
+									<CardContent>
+										<Typography variant="subtitle1" component="div" key={'key' + data.title}>
+											{data.title}
+										</Typography>
+										<Typography variant="body2" color="text.secondary" key={'key' + data.dimensions}>
+											{data.mediaType + "   " + data.dimensions}
+										</Typography>
+									</CardContent>
+								</Card>
+							</div>
+						)
+					})}
+				</div>
+			</div>
 		</div>
 		</>
 	);
