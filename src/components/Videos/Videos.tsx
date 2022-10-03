@@ -5,7 +5,7 @@ const Videos = () => {
 
 	return (
 		<nav>
-			<h1>Videos Section placeholder</h1>
+			<h1>Videos Coming Soon</h1>
 		</nav>
 	)
 

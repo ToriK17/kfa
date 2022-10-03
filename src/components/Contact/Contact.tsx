@@ -5,7 +5,7 @@ const Contact = () => {
 
 	return (
 		<nav>
-			<h1>Contact Section placeholder</h1>
+			<h1>Contact Page coming soon</h1>
 		</nav>
 	)
 
