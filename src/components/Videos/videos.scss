@@ -1,8 +1,14 @@
-.container {
-	z-index: 1;
-}
-h2 {
-	display: flex;
-	padding: 0em 2em 0em 0em;
-	width: 40%;
+section {
+
+	.container {
+		z-index: 1;
+	}
+	h2 {
+		display: flex;
+		padding-left:	2em;
+		width: 40%;
+	}
+	iframe {
+		padding-left:	2em;
+	}
 }

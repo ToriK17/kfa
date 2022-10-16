@@ -1,10 +1,10 @@
 import React from "react";
-
+import './videos.scss';
 
 const Videos = () => {
 
 	return (
-		<nav>
+		<section>
 			<h2>Please Visit <a href='https://www.youtube.com/channel/UCzz1Z-gsHb9w4bvj3Xh9REg'> Youtube </a> for full playlist and to Subscribe</h2>
 			<iframe
 				title="youtube video"
@@ -14,7 +14,7 @@ const Videos = () => {
 				frameBorder="0"
 				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 				allowFullScreen></iframe>
-		</nav>
+		</section>
 	)
 
 }
