@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import './navbar.scss';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
+import YouTubeIcon from '@mui/icons-material/YouTube';
 
 const NavBar = () => {
 	const saLogo =  require("../../assets/icons/sa-logo.png")
@@ -23,10 +24,12 @@ const NavBar = () => {
 						<a className='media-links' href='https://www.facebook.com/jaime.kafati.5'>
 							<FacebookIcon sx={{ color: 'white' }}/>
 						</a>
+						<a className='media-links' href='https://www.youtube.com/channel/UCzz1Z-gsHb9w4bvj3Xh9REg'>
+						  <YouTubeIcon sx={{ color: 'red' }}/>
+						</a>
 						<a className='media-links' href='https://www.saatchiart.com/kafati'>
 							<img src={saLogo} className='sa-art' alt="saatchi art logo" />
 						</a>
-
 				</div>
 			</div>
 		</nav>
