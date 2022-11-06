@@ -5,7 +5,7 @@ const Videos = () => {
 
 	return (
 		<section>
-			<h2>Please Visit <a href='https://www.youtube.com/channel/UCzz1Z-gsHb9w4bvj3Xh9REg'> Youtube </a> for full playlist and to Subscribe</h2>
+			<h2>Please Visit &nbsp;<a href='https://www.youtube.com/channel/UCzz1Z-gsHb9w4bvj3Xh9REg'> Youtube </a> &nbsp;for full playlist and to Subscribe</h2>
 			<iframe
 				title="youtube video"
 				width="560"
