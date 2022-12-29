@@ -61,6 +61,7 @@ const Gallery = () => {
 
 	let galleryObj = data
 	console.log(data.map((g:any) => g) || {})
+	console.log(data)
 
 	return (
 		<>
@@ -72,12 +73,14 @@ const Gallery = () => {
 						return (
 							<div className='card-container'>
 								<Card sx={{ maxWidth: 345 }}>
+									{data.imageFile.description && data.imageFile.url &&
 									<CardMedia
 										component="img"
 										alt={data.imageFile.description}
 										image={data.imageFile.url}
 										key={'key' + data.mediaType}
 									/>
+									}
 									<CardContent>
 										<Typography variant="subtitle1" component="div" key={'key' + data.title}>
 											{data.title}

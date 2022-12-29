@@ -1,8 +1,39 @@
-.container {
-	z-index: 1;
-}
 h1 {
-	display: flex;
-	padding: 0em 2em 0em 0em;
-	width: 40%;
+  margin: 0 0 0.75rem 0;
+	font-size: x-large;
+	font-family: 'Cinzel', serif;
+}
+.contact-img {
+	max-width: 60%;
+  border-radius: 10px;
+}
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.left-half {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  background-color: #ff9e2c;
+  flex: 1;
+  padding: 1rem;
+}
+
+.right-half {
+  background-color: #b6701e;
+  flex: 1;
+  padding: 1rem;
+}
+
+.about-description {
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+}
+
+a {
+  text-decoration: none;
 }
