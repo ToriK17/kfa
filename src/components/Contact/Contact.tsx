@@ -8,7 +8,7 @@ const Contact = () => {
 	const contactPic =  require("../../assets/images/oxen.png")
 	return (
 		<>
-		<section className="container">
+		<section className="contact-container">
 			<div className='left-half'>
 				<h1></h1>
 				<img className="contact-img" src={contactPic} alt="Jaime Kafati" />
