@@ -17,7 +17,7 @@ const Contact = () => {
 				<article className="about-description">
 				<h1>Get in touch</h1>
 					<p>
-						If there is a piece that you're interested in purchasing, please <ButtonMailto label="send me an email" mailto="mailto:no-reply@example.com" />, and I would be happy to discuss further details.
+						If there is a piece that you're interested in purchasing, please <ButtonMailto label="send me an email" mailto="mailto:jeskb57@gmail.com" />, and I would be happy to discuss further details.
 					</p>
 					{/* <h3>Other ways to stay up to date</h3>
 					<p>
