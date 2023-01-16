@@ -72,5 +72,9 @@ export default[
 	{
 		src: 'https://www.youtube.com/embed/vwH3zQ6ZzNw',
 		title: 'Thin to Fat Demo'
+	},
+	{
+		src: 'https://www.youtube.com/embed/R7aGQ9XPfqo',
+		title: 'study in graphics'
 	}
 ]

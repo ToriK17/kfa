@@ -14,13 +14,13 @@ const AboutMe = () => {
 			<div className="right-half">
 				<article className="about-description">
 					<p>
-					  Thank you for visiting my webpage, I am Jaime Eduardo S. Kafati, I’ve been painting since my arrival to the United States in 1978, but it was until 2018, when I retired from my day-job that I was able to enjoy my studio on a fulltime basis. Between intermittent commissioned works, I involved myself in continued figurative studies, attending local life-drawing sessions, exploring new mediums, and executing allegorical paintings that allow me to express my personal contemplations of the world.
+					  Thank you for visiting my website, I am Jaime Eduardo S. Kafati, I’ve been painting since my arrival to the United States in 1978, but it was until 2018, when I retired from my day-job that I was able to enjoy my studio on a fulltime basis. Between intermittent commissioned works, I involved myself in continued figurative studies, attending local life-drawing sessions, exploring new mediums, and executing allegorical paintings that allow me to express my personal contemplations of the world.
 					</p>
 					<p>
 					  Although oils are my primary medium, I love to experiment with a diverse set of mediums and styles. While my works are continually evolving in style and subject matter, the characters within my figurative works reflect a global community, as the human form occupies the central motif of most of my paintings, and within the figure, I give a voice to our humanity.
 					</p>
 					<p>
-					  My works are in private and public collections, through the years my works have been exhibited at statewide events. In 2021 and 2022, I was a tremendously humbled when several of my works were selected within the national and international stage. Listed below some of the notable events within my artist life:
+					  My works are in private and public collections, through the years my works have been exhibited at statewide events. In 2021 and 2022, I was tremendously humbled when several of my works were selected within the national and international stage. Listed below some of the notable events within my artist life:
 					</p>
 					<h3>Exhibitions, and Publications</h3>
 					<ul>
@@ -46,7 +46,8 @@ const AboutMe = () => {
 						<li>2022 – Selected by an international panel for the South American competition “Arte + Treinta” (Art plus 30, for artist 30 years of age and older) As a result, I was interviewed for publications on multiple occasions by Garces Gallery, Colombia; TP & Go Magazine Digital, Argentina; and Radio Econciencia, Mexico City, Mexico. (Please see links below)</li>
 						<li>2022 – Donated a series of ink drawings as a community engagement piece to the Denver Sheriff Department’s K-9 Unit’s children coloring book.</li>
 						<li>2022 – Completed a landscape painting, “Lookout Mountain” exclusively benefitting “The 2022 Rocky Mountain M.S. Center Gala Auction”</li>
-						<li>2022 – Painting “Eve and the Serpent” selected for publication in “Studio Visit Magazine, Volumes 51 & 52”, Boston, MA</li>
+						<li>2022 – Three works were selected for <a href="https://www.artistcloseup.com/magazine" target="_blank" rel="noreferrer">Artist Closeup Contemporary Magazine</a></li>
+						<li>2023 – Painting “Eve and the Serpent” selected for publication in “Studio Visit Magazine, Volumes 51 & 52”, Boston, MA</li>
 					</ul>
 
 					<h3>Related links:</h3>
