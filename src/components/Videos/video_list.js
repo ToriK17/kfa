@@ -75,6 +75,10 @@ export default[
 	},
 	{
 		src: 'https://www.youtube.com/embed/R7aGQ9XPfqo',
-		title: 'study in graphics'
+		title: 'Study in Graphics'
+	},
+	{
+		src: 'https://www.youtube.com/embed/V9kVnPK5bQ0',
+		title: 'Oil Ground, is it worth the price'
 	}
 ]
