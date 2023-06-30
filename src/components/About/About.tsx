@@ -48,6 +48,7 @@ const AboutMe = () => {
 						<li>2022 – Completed a landscape painting, “Lookout Mountain” exclusively benefitting “The 2022 Rocky Mountain M.S. Center Gala Auction”</li>
 						<li>2022 – Three works were selected for <a href="https://www.artistcloseup.com/magazine" target="_blank" rel="noreferrer">Artist Closeup Contemporary Magazine</a></li>
 						<li>2023 – Painting “Eve and the Serpent” selected for publication in “Studio Visit Magazine, Volumes 51 & 52”, Boston, MA</li>
+						<li>2023 - On April 5, 2023, awarded the Price “The Universal Artist” at the National Museum of Science and Technology Leonardo da Vinci in Milan, Italy. My work “Bathsheba” oil on canvas, 36” x 48”, (91,44 x121,92 cm) was selected and published in the 2023 encyclopedic editions of “Contemporary Celebrity Masters Vol. II.” And the “5thInternational Prize, Leonardo Davinci edition: The Universal Artist”</li>
 					</ul>
 
 					<h3>Related links:</h3>
