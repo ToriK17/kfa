@@ -80,5 +80,17 @@ export default[
 	{
 		src: 'https://www.youtube.com/embed/V9kVnPK5bQ0',
 		title: 'Oil Ground, is it worth the price'
+	},
+	{
+		src: 'https://www.youtube.com/embed/FvSPkDrr4W4',
+		title: 'How I Painted Mother Mary (70+ hours in 6 Minutes)'
+	},
+	{
+		src: 'https://www.youtube.com/embed/yQXfWiuTiqk',
+		title: 'El Sembrador de los Olivos (The Olive Farmer)'
+	},
+	{
+		src: 'https://www.youtube.com/embed/gbxErXvba-I',
+		title: 'Painting a Tropical Scene'
 	}
 ]
