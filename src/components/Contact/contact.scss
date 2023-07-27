@@ -31,9 +31,13 @@ h1 {
 .about-description {
   display: flex;
   flex-direction: column;
-  overflow: scroll;
 }
 
 a {
   text-decoration: none;
+}
+
+article {
+  padding: inherit;
+  overflow: hidden !important;
 }
