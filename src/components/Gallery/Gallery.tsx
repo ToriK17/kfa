@@ -1,103 +1,95 @@
 import * as React from 'react';
-import {useState, useEffect} from "react";
-import './gallery.scss'
+import { useState, useEffect } from "react";
+import './gallery.scss';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 
-const Gallery = () => {
-	 // define the initial state
-	interface data {
-		title?: string
-		dimension?: string
-		mediaType?: string
-		imageFile?: any
-		dataObj?: any
-	}
+interface Painting {
+  title?: string;
+  dimensions?: string;
+  mediaType?: string;
+  imageFile?: {
+    description?: string;
+    url?: string;
+  };
+}
 
-	const [data, setData] = useState<any>([]);
-	const query = `
-	{
-		paintingPostCollection {
-			items {
-				title
-				dimensions
-				mediaType
-				imageFile {
-				  title
-				  description
-				  contentType
-				  fileName
-				  size
-				  url
-				  width
-				  height
-				}
-			}
-		}
-	}
-	`
-	useEffect(() => {
-    window
-      .fetch(`https://graphql.contentful.com/content/v1/spaces/${process.env.REACT_APP_SPACE_ID}/`, {
+const Gallery = () => {
+  const [data, setData] = useState<Painting[]>([]);
+
+  const fetchContentfulData = async () => {
+    const query = `
+      {
+        paintingPostCollection {
+          items {
+            title
+            dimensions
+            mediaType
+            imageFile {
+              description
+              url
+            }
+          }
+        }
+      }
+    `;
+
+    try {
+      const response = await fetch(`https://graphql.contentful.com/content/v1/spaces/${process.env.REACT_APP_SPACE_ID}/`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          // Authenticate the request
           Authorization: `Bearer ${process.env.REACT_APP_ACCESS_TOKEN}`,
         },
-        // send the GraphQL query
         body: JSON.stringify({ query }),
-      })
-      .then((response) => response.json())
-			.then((data) => {
-        setData(data.data.paintingPostCollection.items)
-      })
-			.catch((err) => {
-        console.log(err);
       });
+
+      const result = await response.json();
+      setData(result.data.paintingPostCollection.items);
+    } catch (error) {
+      console.error(error);
+    }
+  };
+
+  useEffect(() => {
+    fetchContentfulData();
   }, []);
 
-	let galleryObj = data
-	console.log(data.map((g:any) => g) || {})
-	console.log(data)
-
-	return (
-		<>
-		<div className='gallery-body'>
-			<div className='gallery-side-spacing'></div>
-			<div className='gallery-content'>
-				<div className='card-layout'>
-					{galleryObj.map((data:any) => {
-						return (
-							<div className='card-container'>
-								<Card sx={{ maxWidth: 345 }}>
-									{data.imageFile.description && data.imageFile.url &&
-									<CardMedia
-										component="img"
-										alt={data.imageFile.description}
-										image={data.imageFile.url}
-										key={'key' + data.mediaType}
-									/>
-									}
-									<CardContent>
-										<Typography variant="subtitle1" component="div" key={'key' + data.title}>
-											{data.title}
-										</Typography>
-										<Typography variant="body2" color="text.secondary" key={'key' + data.dimensions}>
-											{data.mediaType + "   " + data.dimensions}
-										</Typography>
-									</CardContent>
-								</Card>
-							</div>
-						)
-					})}
-				</div>
-			</div>
-		</div>
-		</>
-	);
-}
+  return (
+    <>
+      <div className='gallery-body'>
+        <div className='gallery-side-spacing'></div>
+        <div className='gallery-content'>
+          <div className='card-layout'>
+            {data.map((painting: Painting, index) => (
+              <div className='card-container' key={index}>
+                <Card sx={{ maxWidth: 345 }}>
+                  {painting.imageFile?.description && painting.imageFile?.url && (
+                    <CardMedia
+                      component="img"
+                      alt={painting.imageFile.description}
+                      image={painting.imageFile.url}
+                      key={`key-${painting.mediaType}-${index}`}
+                    />
+                  )}
+                  <CardContent>
+                    <Typography variant="subtitle1" component="div" key={`key-${painting.title}-${index}`}>
+                      {painting.title}
+                    </Typography>
+                    <Typography variant="body2" color="text.secondary" key={`key-${painting.dimensions}-${index}`}>
+                      {`${painting.mediaType}   ${painting.dimensions}`}
+                    </Typography>
+                  </CardContent>
+                </Card>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
 
 export default Gallery;
