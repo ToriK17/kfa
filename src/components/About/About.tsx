@@ -20,7 +20,7 @@ const AboutMe = () => {
 					  Although oils are my primary medium, I love to experiment with a diverse set of mediums and styles. While my works are continually evolving in style and subject matter, the characters within my figurative works reflect a global community, as the human form occupies the central motif of most of my paintings, and within the figure, I give a voice to our humanity.
 					</p>
 					<p>
-					  My works are in private and public collections, through the years my works have been exhibited at statewide events. In 2021 and 2022, I was tremendously humbled when several of my works were selected within the national and international stage. Listed below some of the notable events within my artist life:
+					My artworks reside in both private and public collections. Over the years, they have been exhibited and published extensively in the United States. Since 2020, it has been incredibly humbling to witness several of my pieces selected and published on the international stage, spanning across Latin America and Europe. Listed below are some of the notable events within my artist life:
 					</p>
 					<h3>Exhibitions, and Publications</h3>
 					<ul>
