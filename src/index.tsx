@@ -7,6 +7,8 @@ import Gallery from './components/Gallery/Gallery';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import Videos from './components/Videos/Videos';
+import NoMatch from './components/NoMatch/NoMatch';
+
 
 
 const rootElement = document.getElementById("root");
@@ -19,6 +21,7 @@ render(
         <Route path="/contact" element={<Contact />} />
         <Route path="/videos" element={<Videos />} />
         <Route path="/gallery" element={<Gallery />} />
+        <Route path="*" element={<NoMatch />} />
       </Route>
     </Routes>
   </BrowserRouter>
