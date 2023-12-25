@@ -6,20 +6,18 @@
   .gallery-content {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-evenly; /* Adjust as needed */
+	justify-content: space-evenly;
   }
   
   .gallery-side-spacing {
-	/* 12em is the width of the columns */
-	flex: 0 0 12em;
-	// order: -1;
+	flex: 0 0 7em;
   }
   
   .card-container {
-	padding: 40px;
+	padding: 10px;
 	z-index: 7;
-	margin-bottom: auto;
-	flex: 0 0 calc(25% - 24px); /* Adjust the width and margin as needed */
+	margin-bottom: 20px;
+	flex: 0 0 calc(33% - 20px);
   
 	@media (max-width: 768px) {
 	  flex: 0 0 100%; /* Display one column when the screen size is 768px or smaller */
