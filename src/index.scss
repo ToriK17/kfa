@@ -13,6 +13,14 @@ body {
   background-color: #BDC4CC;
 }
 
+/* Media query for mobile devices */
+@media (max-width: 767px) {
+  body {
+    /* Black background color for mobile view */
+    background-color: #000000;
+  }
+}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

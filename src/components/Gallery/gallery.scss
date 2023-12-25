@@ -36,4 +36,12 @@
 	font-size: larger;
 	padding-left: 2em;
   }
-  
+
+  @media (max-width: 768px) {
+    .gallery-body {
+	  background-color: black !important;
+    }
+	.gallery-side-spacing {
+	  background-color: black !important;
+	}
+  }

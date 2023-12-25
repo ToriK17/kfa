@@ -7,12 +7,12 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 
 interface Painting {
-  title?: string;
+  title: string;
   dimensions?: string;
   mediaType?: string;
-  imageFile?: {
+  imageFile: {
     description?: string;
-    url?: string;
+    url: string;
   };
 }
 
