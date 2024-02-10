@@ -56,6 +56,7 @@ const AboutMe = () => {
 							<li>Travel Plan & Go, Magazine Digital, Buenos Aires, Argentina <a href="http://tpandgo.com/artes-plasticas/expo-arte-30-latinoamerica-artista-jaime-kafati" target="_blank" rel="noreferrer">Expo Arte featuring Jaime Kafati</a>  </li>
 							<li>ES Gallery, Colombia (Instagram: @garcesgallery) <a href="https://garcesgallery.com/" target="_blank" rel="noreferrer">Garces Gallery</a></li>
 							<li>Miguel Jiménez, radio announcer, Mexico City, Mexico <a href="www.econciencia.com" target="_blank" rel="noreferrer">Econciencia</a>  & <a href="https://www.studiovisitmagazine.com/volumes" target="_blank" rel="noreferrer">Studio Visit Magazine</a> </li>
+							<li>Featured in Studio Visit Magazine, <a href="https://www.studiovisitmagazine.com/pastvolumes/volume51" target="_blank" rel="noreferrer">Volume 51</a></li>
 						</ul>
 				</article>
 			</div>
